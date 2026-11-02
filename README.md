@@ -8,9 +8,11 @@ Lektion4/
 ├── src/
 │   ├── main.c           # Huvudprogram och menyhantering
 │   ├── temperature.c    # Logik för inläsning, validering och klassificering
-│   └── temperature.h    # Funktionsdeklarationer (kontrakt)
+│   └── temperature.h    # Funktionsdeklarationer
 ├── Makefile             # Regler för kompilering
 ├── requirements.md      # Kravspecifikation
+├── tests.md             # Testfall för verifiering
+├── traceability.md      # Spårbarhetsmatris 
 └── README.md            # Dokumentation
 
 ## Byggkommando
