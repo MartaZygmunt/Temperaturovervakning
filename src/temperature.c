@@ -20,8 +20,8 @@ bool is_valid_temperature(int temperature) {
     }
 }
 
-const char *classify_temperature(int temperature) {
-    if (temperature > 50) {
+const char *classify_temperature(int temperature, int varning_limit) {
+    if (temperature > varning_limit) {
         return "VARNING";
     } else {
         return "NORMAL";
