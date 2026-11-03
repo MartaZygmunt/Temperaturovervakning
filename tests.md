@@ -37,3 +37,15 @@ Detta dokument listar testfall för att verifiera att koden uppfyller kraven.
 * **Indata:** "abc"
 * **Förväntat resultat:** Ogiltig inmatning, programmet sätter inte temperaturen till 0.
 * **Beskrivning:** Testar inmatning av bokstäver istället för heltal.
+
+### 7. Giltig konfiguration av varningsgräns
+- **ID:** TC-07
+- **Indata:** Startgräns: 30, Temperatur: 35
+- **Förväntat resultat:** Gränsen accepteras (30°C), och temperaturen 35°C ger Status: VARNING
+- **Beskrivning:** Testar att användaren kan ange en giltig varningsgräns vid start inom intervallet 0–60°C.
+
+### 8. Ogiltig konfiguration av varningsgräns
+- **ID:** TC-08
+- **Indata:** Startgräns: 75 (eller -5)
+- **Förväntat resultat:** Felmeddelande visas, programmet kraschar inte utan uppmanar användaren att ange en ny giltig gräns.
+- **Beskrivning:** Testar validering av varningsgränsen vid start (intervall 0–60°C).

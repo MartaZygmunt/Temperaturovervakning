@@ -1,0 +1,2 @@
+## Projektreflektion
+> Att lägga till en konfigurerbar varningsgräns var ganska lärorikt och visade hur viktigt det är med inmatningsvalidering i C för att programmet inte ska krascha. Det var till stor hjälp att använda spårbarhetsmatrisen och testfallen för att hålla koll på att koden uppfyllde alla krav. Genom att arbeta strukturerat med separata git-commits blev det mycket enklare att följa utvecklingen av projektet. Det svåraste var att få till felhanteringen, men det löste sig till slut och programmet fungerar som det ska.
