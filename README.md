@@ -9,11 +9,13 @@ Lektion4/
 │   ├── main.c           # Huvudprogram och menyhantering
 │   ├── temperature.c    # Logik för inläsning, validering och klassificering
 │   └── temperature.h    # Funktionsdeklarationer
+├── .gitignore           # Git-exkluderingsfiler
 ├── Makefile             # Regler för kompilering
 ├── requirements.md      # Kravspecifikation
 ├── tests.md             # Testfall för verifiering
-├── traceability.md      # Spårbarhetsmatris 
-└── README.md            # Dokumentation
+├── traceability.md      # Spårbarhetsmatris
+├── retrospective.md     # Projektreflektion
+└── README.md            # Huvuddokumentation
 
 ## Byggkommando
 Projektet kan byggas på två sätt beroende på om du har `make` installerat:
