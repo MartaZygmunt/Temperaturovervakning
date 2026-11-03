@@ -34,7 +34,12 @@ temperature_alarm.exe
 
 ## Användningsexempel
 
-### Exempel 1: Normal temperatur
+Programmet inleds med att användaren anger en anpassad varningsgräns (0–60 °C), varefter menyn startar.
+
+### Exempel 1: Konfiguration och normal temperatur
+
+Ange varningsgrans (0-60 C): 45
+
 === TEMPERATURLARM ===
 1. Mat in temperatur
 2. Avsluta
@@ -42,10 +47,13 @@ Val: 1
 Ange temperatur: 25
 Temperatur: 25 C - Status: NORMAL
 
-### Exempel 2: Varning vid hög temperatur
+### Exempel 2: Varning när temperaturen överstiger den satta gränsen
+
+Ange varningsgrans (0-60 C): 45
+
 === TEMPERATURLARM ===
 1. Mat in temperatur
 2. Avsluta
 Val: 1
-Ange temperatur: 60
-Temperatur: 60 C - Status: VARNING
+Ange temperatur: 50
+Temperatur: 50 C - Status: VARNING
