@@ -4,6 +4,7 @@
 Syftet med detta projekt är att skapa ett modulärt program i C som övervakar temperaturer, validerar inmatning för att förhindra krascher och varna användaren om temperaturen överskrider tillåtna gränser.
 
 ## Filstruktur
+```text
 Lektion4/
 ├── src/
 │   ├── main.c           # Huvudprogram och menyhantering
@@ -13,7 +14,7 @@ Lektion4/
 ├── Makefile             # Regler för kompilering
 ├── requirements.md      # Kravspecifikation
 ├── tests.md             # Testfall för verifiering
-├── traceability.md      # Spårbarhetsmatris
+├── traceability.md      # Spårbarhetsmatrisgit add README.md
 ├── retrospective.md     # Projektreflektion
 └── README.md            # Huvuddokumentation
 
